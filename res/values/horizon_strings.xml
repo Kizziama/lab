@@ -161,4 +161,10 @@
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Roaming indicator</string>
     <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+
+    <!-- Lockscreen media art -->
+    <string name="lockscreen_media_art_category_title">Media art</string>
+    <string name="keygaurd_media_art_title">Display media cover art</string>
+    <string name="keygaurd_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
 </resources> 
