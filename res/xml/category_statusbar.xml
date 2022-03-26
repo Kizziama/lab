@@ -25,6 +25,18 @@
         android:defaultValue="false" />
 
      <PreferenceCategory
+        android:key="icons_category"
+        android:title="@string/statusbar_icons">
+
+        <Preference
+            android:key="sbbatteryicons"
+            android:title="@string/status_bar_battery_style_title"
+            android:summary="@string/status_bar_battery_style_summary"
+            android:fragment="com.horizon.lab.category.BatteryStyleSettings" />
+
+    </PreferenceCategory>
+
+     <PreferenceCategory
         android:title="@string/status_bar_clock_title">
 
         <com.android.settings.custom.preference.SystemSettingListPreference
@@ -43,5 +55,8 @@
             android:fragment="com.horizon.lab.category.Clock" />
 
     </PreferenceCategory>
+<<<<<<< HEAD:res/xml/category_statusbar.xml
 
+=======
+>>>>>>> 436c947 (SuperiorLab: Add battery styles customizations [2/2]):res/xml/superior_lab_statusbar.xml
 </PreferenceScreen>
