@@ -33,6 +33,12 @@
             android:title="@string/status_bar_battery_style_title"
             android:summary="@string/status_bar_battery_style_summary"
             android:fragment="com.horizon.lab.category.BatteryStyleSettings" />
+            
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="data_disabled_icon"
+            android:title="@string/data_disabled_icon_title"
+            android:summary="@string/data_disabled_icon_summary"
+            android:defaultValue="true"/>
 
     </PreferenceCategory>
 
