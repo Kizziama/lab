@@ -53,10 +53,13 @@
             android:title="@string/status_bar_clock_title"
             android:summary="@string/status_bar_clock_summary"
             android:fragment="com.horizon.lab.category.Clock" />
+            
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="statusbar_clock_chip"
+            android:title="@string/statusbar_clock_chip_title"
+            android:summary="@string/statusbar_clock_chip_summary"
+            android:defaultValue="true" />
 
     </PreferenceCategory>
-<<<<<<< HEAD:res/xml/category_statusbar.xml
 
-=======
->>>>>>> 436c947 (SuperiorLab: Add battery styles customizations [2/2]):res/xml/superior_lab_statusbar.xml
 </PreferenceScreen>
